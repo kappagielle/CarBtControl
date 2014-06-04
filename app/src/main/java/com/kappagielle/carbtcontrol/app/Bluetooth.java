@@ -110,6 +110,8 @@ public class Bluetooth{
 
 		mConnectedThread = new ConnectedThread();
 		mConnectedThread.start();
+
+
 	
 	}
 
