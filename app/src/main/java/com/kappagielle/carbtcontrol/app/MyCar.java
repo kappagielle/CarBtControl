@@ -23,6 +23,9 @@ public class MyCar extends ActionBarActivity implements SensorEventListener {
 
     //inserisco un commento
 
+
+
+
     private boolean faroAnteriore = false;
     private boolean faroPosteriore = false;
 
