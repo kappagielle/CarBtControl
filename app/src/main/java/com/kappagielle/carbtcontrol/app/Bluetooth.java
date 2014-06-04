@@ -111,8 +111,6 @@ public class Bluetooth{
 		mConnectedThread = new ConnectedThread();
 		mConnectedThread.start();
 
-
-	
 	}
 
 	public void BT_onPause() {
