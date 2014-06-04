@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.kappagielle.carbtcontrol.app.MyCar">
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New ToggleButton"
+        android:id="@+id/onOffBtn"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/luciAnterioriBtn" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Anteriore"
+        android:id="@+id/luciAnterioriBtn"
+        android:layout_centerVertical="true"
+        android:layout_alignRight="@+id/luciPosterioriBtn"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Posteriore"
+        android:id="@+id/luciPosterioriBtn"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/luciAnterioriBtn" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Bluetooth:"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Luci:"
+        android:id="@+id/textView2"
+        android:phoneNumber="false"
+        android:layout_above="@+id/luciAnterioriBtn"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Avanti"
+        android:id="@+id/cmdAvantiBtn"
+        android:layout_alignTop="@+id/onOffBtn"
+        android:layout_alignLeft="@+id/cmdIndietroBtn"
+        android:layout_alignParentRight="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Indietro"
+        android:id="@+id/cmdIndietroBtn"
+        android:layout_below="@+id/onOffBtn"
+        android:layout_alignParentRight="true" />
+
+</RelativeLayout>
